@@ -45,4 +45,5 @@ export default App;
 const Container = styled.div`
     background-color: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
+    min-height: 100vh;
 `
